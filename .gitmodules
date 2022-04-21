@@ -1,0 +1,3 @@
+[submodule "NeuralSearch"]
+	path = NeuralSearch
+	url = https://github.com/dmmagdal/NeuralSearch
