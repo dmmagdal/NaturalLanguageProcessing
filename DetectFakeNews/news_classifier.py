@@ -25,9 +25,10 @@ from sklearn.model_selection import train_test_split
 
 
 # Download all necessary nltk modules.
-nltk.download("punkt")
-nltk.download("wordnet")
-nltk.download("stopwords")
+nltk.download("all")
+# nltk.download("punkt")
+# nltk.download("wordnet")
+# nltk.download("stopwords")
 
 
 def main():
@@ -199,11 +200,9 @@ def main():
 
 	# This model will have a maximum accuracy of around 91.5% on the
 	# test data.
-	'''
 	model.fit(
 		indiv, y_train, validation_data=(test, y_test), epochs=10
 	)
-	'''
 
 
 	# Introducing BERT
@@ -333,7 +332,6 @@ def main():
 	# test data.
 	model.fit(title_train, y_train, epochs=5)
 	model.evaluate(title_test, y_test)
-
 
 	# Exit the program.
 	exit(0)
