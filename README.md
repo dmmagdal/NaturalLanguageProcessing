@@ -7,6 +7,7 @@ Description: This (mono)repo is meant to encapsulate all NLP projects that may h
 
  - **DetectFakeNews**: An example using BERT and LSTM models to determine which news articles are fake news (by title).
  - **NeuralSearch**: A submodule that focuses on indexing and searching texts with techniques such as TF-IDF, text similarity with levenshtein diestance, and BERT embeddings.
+ - **TextSummarization**: An example using primarily Pegasus model to summarize texts.
 
 
 ### Updating the Repo
