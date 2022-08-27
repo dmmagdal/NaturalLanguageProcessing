@@ -1,0 +1,5 @@
+faiss-cpu
+numpy
+pandas==1.1.0
+transformers==4.10.3
+tqdm
